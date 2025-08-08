@@ -1,0 +1,14 @@
+README.md
+public/
+  index.html
+  favicon.ico
+src/
+  main.js
+  desktop.js
+  windowManager.js
+  emulator.js
+  style.css
+assets/
+  logo.png
+.gitignore
+package.json

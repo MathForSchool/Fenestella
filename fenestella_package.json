@@ -1,0 +1,9 @@
+{
+  "name": "fenestella",
+  "version": "0.1.0",
+  "description": "Web-based OS environment base",
+  "scripts": {
+    "start": "npx serve public"
+  },
+  "dependencies": {}
+}
