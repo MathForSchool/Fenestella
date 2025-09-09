@@ -1,239 +1,243 @@
 {
-  "backup": {
-    "config": {}
-  },
-  "bat": {
-    "macros.doskey": {}
-  },
-  "Boot": {},
-  "data": {
-    "diagnostic_data": {}
-  },
-  "Drivers": {
-    "network": {
-      "rt640x64.cat": {},
-      "rt640x64.inf": {},
-      "rt640x64.sys": {}
+  "C:": {
+    "type": "folder",
+    "name": "C:",
+    "info": {
+      "size": "104000000000",
+      "used": "90000000000",
+      "spid": "%cdrive%"
     },
-    "storage": {
-      "RsCRIcon.dll": {},
-      "RtsUer.inf": {},
-      "RtsUer.sys": {},
-      "rtsuer64.cat": {}
-    }
-  },
-  "Microsoft": {
-    "Windows": {
-      "Powershell": {}
-    }
-  },
-  "ProgramFiles": {
-    "AMD": {},
-    "APM-Server": {},
-    "Common_Files": {},
-    "Dell": {},
-    "DIFX": {},
-    "dotnet": {},
-    "ffmpeg": {},
-    "Git": {},
-    "Goodix": {},
-    "IIS": {},
-    "Intel": {},
-    "Java": {},
-    "mcafee": {},
-    "MongoDB": {},
-    "MSBuild": {},
-    "MySQL": {},
-    "nodejs": {},
-    "OpenSSL-Win64": {},
-    "PostgreSQL": {},
-    "PuTTY": {},
-    "Realtek": {},
-    "Unity": {},
-    "UNP": {},
-    "Waves": {},
-    "Defender": {},
-    "Mail": {},
-    "MediaPlayer": {},
-    "WindowsNT": {},
-    "PhotoViewer": {},
-    "PortableDevices": {},
-    "WindowsSecurity": {},
-    "WindowsSidebar": {},
-    "WindowsApps": {},
-    "WindowsPowerShell": {},
-    "WinRAR": {}
-  },
-  "ProgramData": {
-    "Adobe": {},
-    "AMD": {},
-    "AnyDesk": {},
-    "apm-server": {},
-    "ApplicationData": {},
-    "ATI": {},
-    "AVASTSoftware": {},
-    "Caphyon": {},
-    "chocolatey": {},
-    "Dell": {},
-    "DellInc": {},
-    "Desktop": {},
-    "Disc-Soft": {},
-    "Documents": {},
-    "ElectronicArts": {},
-    "GOG.com": {},
-    "Goodix": {},
-    "GraphicsType": {},
-    "IDM": {},
-    "Intel": {},
-    "IObit": {},
-    "McAfee": {},
-    "Microsoft": {},
-    "MicrosoftOneDrive": {},
-    "MicrosoftVisualStudio": {},
-    "Mozilla": {},
-    "MySQL": {},
-    "Oracle": {},
-    "PackageCache": {},
-    "Packages": {},
-    "PCDr": {},
-    "Posse": {}
-  },
-  "temp": {
-    "AutofillRegex": {},
-    "BrowserMetrics": {},
-    "CertificateRevocation": {},
-    "chrome_shutdown_ms.txt": {},
-    "Crashpad": {},
-    "CrashpadMetrics-active.pma": {},
-    "CrowdDeny": {},
-    "Default": {},
-    "FileTypePolicies": {},
-    "FirstRun": {},
-    "Greaselion": {},
-    "GrShaderCache": {},
-    "hyphen-data": {},
-    "LastBrowser": {},
-    "LastVersion": {},
-    "LocalState": {},
-    "MEIPreload": {},
-    "ModuleInfoCache": {},
-    "SafeBrowsing": {},
-    "SafetyTips": {},
-    "ShaderCache": {},
-    "SSLErrorAssistant": {}
-  },
-  "Users": {
-    "Default": {},
-    "Public": {},
-    "Blue": {
-      "AppData": {},
-      "config.cfg": {},
-      "Contacts": {},
-      "Cookies": {},
-      "Desktop": {},
-      "Documents": {},
-      "Downloads": {},
-      "Favorites": {},
-      "geckodriver.log": {},
-      "get-pip.py": {},
-      "IntelGraphicsProfiles": {},
-      "javac": {},
-      "joke.txt": {
-        "content": "I have a joke on recursion but I have a joke on ..."
+    "data": {
+      "backup": {
+        "type": "folder",
+        "name": "backup",
+        "data": {
+          "config": {
+            "type": "folder",
+            "name": "config"
+          }
+        }
       },
-      "Links": {},
-      "LocalSettings": {},
-      "MicrosoftEdgeBackups": {},
-      "Music": {},
-      "MyDocuments": {},
-      "NetHood": {},
-      "OneDrive": {},
-      "Postman": {},
-      "PrintHood": {},
-      "Recent": {},
-      "SavedGames": {},
-      "Searches": {},
-      "StartMenu": {},
-      "supersecret.txt": {
-        "content": "github: github.com/blueedgetechno\nwebsite: blueedge.me"
+      "Microsoft": {},
+      "Program Files": {
+        "data": {
+          "7-Zip": {},
+          "Adobe": {},
+          "AMD": {},
+          "BraveSoftware": {},
+          "Common Files": {},
+          "Dell": {},
+          "dotnet": {},
+          "Git": {},
+          "Goodix": {},
+          "heroku": {},
+          "Intel": {},
+          "Internet Explorer": {},
+          "mcafee": {},
+          "Microsoft Office 15": {},
+          "Microsoft OneDrive": {},
+          "Microsoft Update Health Tools": {},
+          "ModifiableWindowsApps": {},
+          "MongoDB": {},
+          "MSBuild": {},
+          "MySQL": {},
+          "nodejs": {},
+          "OpenVPN": {},
+          "PCHealthCheck": {},
+          "PowerShell": {},
+          "PowerToys": {},
+          "Realtek": {},
+          "Reference Assemblies": {},
+          "Riot Vanguard": {},
+          "Rivet Networks": {},
+          "Waves": {},
+          "Windows Defender": {},
+          "Windows Mail": {},
+          "Windows Media Player": {},
+          "Windows NT": {},
+          "Windows Photo Viewer": {},
+          "WindowsPowerShell": {},
+          "WinRAR": {}
+        }
       },
-      "Templates": {},
-      "VirtualBoxVMs": {},
-      "vmlogs": {}
+      "temp": {},
+      "Users": {
+        "type": "folder",
+        "name": "Users",
+        "data": {
+          "Public": {
+            "data": {
+              "Public Documents": {},
+              "Public Downloads": {},
+              "Public Music": {},
+              "Public Pictures": {},
+              "Public Videos": {}
+            }
+          },
+          "Blue": {
+            "type": "folder",
+            "name": "Blue",
+            "info": {
+              "spid": "%user%",
+              "icon": "user"
+            },
+            "data": {
+              ".config": {},
+              "AppData": {},
+              "Desktop": {
+                "info": {
+                  "spid": "%desktop%",
+                  "icon": "desk"
+                }
+              },
+              "Documents": {
+                "info": {
+                  "spid": "%documents%",
+                  "icon": "docs"
+                },
+                "data": {
+                  "2020": {
+                    "data": {
+                      "Covid": {},
+                      "Lockdown": {},
+                      "Windows 11 Release": {},
+                      "Vaccination": {}
+                    }
+                  },
+                  "Adobe": {},
+                  "Attachments": {},
+                  "Battle Royal": {},
+                  "BioWare": {},
+                  "Custom": {},
+                  "Downloadable": {},
+                  "Fax": {},
+                  "FeedbackHub": {},
+                  "Freelancing": {},
+                  "My Games": {},
+                  "OneNote notebooks": {},
+                  "OnScreen Control": {},
+                  "Outlook Files": {},
+                  "Visual Studio": {}
+                }
+              },
+              "Downloads": {
+                "info": {
+                  "spid": "%downloads%",
+                  "icon": "down"
+                },
+                "data": {
+                  "Hitman 3": {},
+                  "Atomforces": {},
+                  "Compressed": {},
+                  "textures": {},
+                  "Not A Virus": {}
+                }
+              },
+              "Music": {
+                "info": {
+                  "spid": "%music%",
+                  "icon": "music"
+                },
+                "data": {
+                  "Hip Hop": {},
+                  "Old School": {},
+                  "60s Songs": {}
+                }
+              },
+              "Pictures": {
+                "info": {
+                  "spid": "%pictures%",
+                  "icon": "pics"
+                },
+                "data": {
+                  "DCIM": {},
+                  "2007": {},
+                  "High School": {
+                    "data": {
+                      "Did you really expected that": {}
+                    }
+                  }
+                }
+              },
+              "Videos": {
+                "info": {
+                  "spid": "%videos%",
+                  "icon": "vid"
+                },
+                "data": {
+                  "porn-collection": {}
+                }
+              },
+              "Github": {
+                "info": {
+                  "spid": "%github%"
+                },
+                "data": {
+                  "atomforces": {},
+                  "blueapi": {},
+                  "BlueBlog": {},
+                  "BlueBlogs---A-social-platform": {},
+                  "blueedgetechno": {},
+                  "blueedgetechno.github.io": {},
+                  "blueimage": {},
+                  "bluelab": {},
+                  "blueothello": {},
+                  "blueweb": {},
+                  "codeblue": {},
+                  "handwritten-digit-recognition": {},
+                  "jiosaavn": {},
+                  "jiosaavn-api": {},
+                  "minesweeper": {},
+                  "othello": {},
+                  "Saavn-Downloader": {},
+                  "Sanfoundary": {}
+                }
+              },
+              "OneDrive": {
+                "type": "folder",
+                "name": "OneDrive",
+                "info": {
+                  "spid": "%onedrive%",
+                  "icon": "onedrive"
+                },
+                "data": {
+                  "Atom": {
+                    "data": {
+                      "Codeforces": {},
+                      "JavaScript": {},
+                      "Github": {}
+                    }
+                  },
+                  "Attachments": {},
+                  "october": {},
+                  "Office": {},
+                  "party": {},
+                  "New Folder": {}
+                }
+              },
+              "Contacts": {},
+              "Favorites": {},
+              "gif": {},
+              "Programs": {},
+              "Postman": {}
+            }
+          }
+        }
+      },
+      "Windows": {}
     }
   },
-  "Windows": {
-    "addins": {},
-    "appcompat": {},
-    "apppatch": {},
-    "AppReadiness": {},
-    "assembly": {},
-    "bcastdvr": {},
-    "Boot": {},
-    "Branding": {},
-    "CbsTemp": {},
-    "Containers": {},
-    "Cursors": {},
-    "debug": {},
-    "diagnostics": {},
-    "DiagTrack": {},
-    "DigitalLocker": {},
-    "ELAMBKUP": {},
-    "Firmware": {},
-    "Fonts": {},
-    "GameBarPresenceWriter": {},
-    "Globalization": {},
-    "Help": {},
-    "IAStorAfsService": {},
-    "IdentityCRL": {},
-    "IME": {},
-    "ImmersiveControlPanel": {},
-    "INF": {},
-    "InfusedApps": {},
-    "InputMethod": {},
-    "Installer": {},
-    "L2Schemas": {},
-    "LanguageOverlayCache": {},
-    "LiveKernelReports": {},
-    "Logs": {},
-    "Media": {},
-    "Migration": {},
-    "ModemLogs": {},
-    "OCR": {},
-    "Panther": {},
-    "Performance": {},
-    "PLA": {},
-    "PolicyDefinitions": {},
-    "Prefetch": {},
-    "PrintDialog": {},
-    "Provisioning": {},
-    "Registration": {},
-    "rescache": {},
-    "Resources": {},
-    "SchCache": {},
-    "schemas": {},
-    "scratch": {},
-    "security": {},
-    "ServiceProfiles": {},
-    "ServiceState": {},
-    "servicing": {},
-    "Setup": {},
-    "ShellComponents": {},
-    "ShellExperiences": {},
-    "SKB": {},
-    "SoftwareDistribution": {},
-    "Speech": {},
-    "Speech_OneCore": {},
-    "System": {},
-    "System32": {},
-    "SystemApps": {},
-    "SystemResources": {},
-    "SysWOW64": {},
-    "TAPI": {},
-    "Tasks": {},
-    "Temp": {},
-    "TextInput": {},
-    "tracing": {},
-    "Web": {}
+  "D:": {
+    "name": "D:",
+    "info": {
+      "spid": "%ddrive%"
+    },
+    "data": {
+      "Adobe": {},
+      "Programs": {},
+      "Unity": {},
+      "WindowsApp": {},
+      "Temp": {}
+    }
   }
 }
